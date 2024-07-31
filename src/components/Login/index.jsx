@@ -25,7 +25,7 @@ function Login() {
     .then(resp => resp.json())
     .then(data => {
       console.log(data);
-      navigate('/home')
+      navigate('/Home')
     })
     .catch(err => {
       console.log(err);

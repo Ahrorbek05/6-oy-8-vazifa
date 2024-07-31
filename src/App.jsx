@@ -20,7 +20,7 @@ function App() {
     <Routes>
       <Route path='/register' element={<Register></Register>} />
       <Route path='/login' element={<Login></Login>} />
-      <Route index element = {<ProtectedRoute isAuthenticated={false}><Home></Home></ProtectedRoute>}></Route>
+      <Route index element = {<ProtectedRoute isAuthenticated={true}><Home></Home></ProtectedRoute>}></Route>
     </Routes>
   );
 }
