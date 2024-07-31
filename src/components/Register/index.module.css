@@ -32,7 +32,6 @@ input{
 
 .submit{
     border: none;
-    /* border: 1px solid #ababab; */
     cursor: pointer;
     padding: 10px;
     width: 50%;
